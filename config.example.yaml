@@ -1,0 +1,23 @@
+prometheus:
+  http_port: 8080
+perfmon:
+  - server_name: CUCM01
+    server_address: 10.0.0.1
+    server_port: 443
+    verify: False
+    username: ccmadministrator
+    password: examplepassword
+    included_objects:
+      - Cisco CallManager
+      - Cisco CallManager System Performance
+      - Cisco MGCP PRI Device
+  - server_name: CUCM02
+    server_address: 10.0.0.2
+    server_port: 443
+    verify: False
+    username: ccmadministrator
+    password: examplepassword
+    included_objects:
+      - Cisco CallManager
+      - Cisco CallManager System Performance
+      - Cisco MGCP PRI Device

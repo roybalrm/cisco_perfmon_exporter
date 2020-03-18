@@ -1,0 +1,14 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "~/.venv/nms/bin/flake8",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "~/.venv/nms/bin/python",
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.autopep8Args": ["--max-line-length=512"],
+    "python.linting.flake8Args": ["--max-line-length=512"],
+    "python.linting.pycodestyleEnabled": false,
+}
